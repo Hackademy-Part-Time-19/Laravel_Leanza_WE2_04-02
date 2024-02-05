@@ -1,0 +1,122 @@
+@import "bootstrap";
+
+body{
+    background-color: #f8f9fa52;
+   
+}
+
+#navbar{
+    border: 1px solid rgba(0, 0, 0, 0.071);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.menuHome {
+    height: 200px;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    
+
+}
+.containerButtonHome {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.071);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.buttonMenuHome {
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttonMenuHome2 {
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #505050;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttonMenuHome:hover {
+    scale: 1.01;
+}
+.buttonMenuHome2:hover {
+    scale: 1.01;        
+}
+
+.buttonMenuHome a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 17px;
+}
+.buttonMenuHome2 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 17px;
+}
+.nomeTabella {
+    cursor: pointer;
+}
+.containerTicketDettaglio{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#table{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.containerForm{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    border : 1px solid rgba(0, 0, 0, 0.311);
+ 
+}
+.dropdownTicketDettaglio{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    border : 1px solid rgba(0, 0, 0, 0.311);
+    font-size: 18px;
+    font-weight: 500;
+}
+#buttonDropdownDettaglio{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.containerForm h5{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
